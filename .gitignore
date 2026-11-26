@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+.vercel/
+node_modules/
+PRIVATE_OPERATOR_ACCESS.txt
+*.pem
+*.key
