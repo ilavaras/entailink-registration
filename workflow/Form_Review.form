@@ -1,0 +1,28 @@
+{
+  "type": "default",
+  "id": "Form_Review",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "schemaVersion": 18,
+  "components": [
+    {
+      "type": "text",
+      "text": "Review organisation and administrator"
+    },
+    {
+      "type": "checkbox",
+      "key": "onboardingApproved",
+      "label": "Approve organisation and verified administrator",
+      "id": "approved"
+    },
+    {
+      "type": "textfield",
+      "key": "completionEvidence",
+      "label": "Provider references and completion evidence",
+      "id": "evidence",
+      "validate": {
+        "required": true
+      }
+    }
+  ]
+}

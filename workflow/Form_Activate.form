@@ -1,0 +1,22 @@
+{
+  "type": "default",
+  "id": "Form_Activate",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "schemaVersion": 18,
+  "components": [
+    {
+      "type": "text",
+      "text": "Activate customer workspace"
+    },
+    {
+      "type": "textfield",
+      "key": "completionEvidence",
+      "label": "Provider references and completion evidence",
+      "id": "evidence",
+      "validate": {
+        "required": true
+      }
+    }
+  ]
+}

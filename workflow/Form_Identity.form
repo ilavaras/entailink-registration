@@ -1,0 +1,22 @@
+{
+  "type": "default",
+  "id": "Form_Identity",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "schemaVersion": 18,
+  "components": [
+    {
+      "type": "text",
+      "text": "Configure Okta app and admin"
+    },
+    {
+      "type": "textfield",
+      "key": "completionEvidence",
+      "label": "Provider references and completion evidence",
+      "id": "evidence",
+      "validate": {
+        "required": true
+      }
+    }
+  ]
+}
